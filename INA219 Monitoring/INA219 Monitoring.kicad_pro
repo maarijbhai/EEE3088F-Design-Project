@@ -266,11 +266,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(U1-SCL)": "Clock",
-      "Net-(U1-SDA)": "Data",
-      "unconnected-(R3-Pad1)": "Load"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
