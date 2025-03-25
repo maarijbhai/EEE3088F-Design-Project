@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "USB C_Power and Integration-altium-import")(type "KiCad")(uri "${KIPRJMOD}/USB C_Power and Integration-altium-import.kicad_sym")(options "")(descr ""))
 )
