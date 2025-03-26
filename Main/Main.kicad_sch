@@ -5690,7 +5690,7 @@
 	)
 	(text "Charging Circuit\n"
 		(exclude_from_sim no)
-		(at 66.294 44.958 0)
+		(at 89.916 14.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7804,16 +7804,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 194.31 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3890789-92b7-4427-b70e-c3d86441b428")
-	)
-	(wire
-		(pts
 			(xy 140.97 218.44) (xy 140.97 220.98)
 		)
 		(stroke
@@ -7871,6 +7861,16 @@
 			(type default)
 		)
 		(uuid "e71d9186-352f-4738-9aed-62275e9ec118")
+	)
+	(wire
+		(pts
+			(xy 190.5 41.91) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76e8e0e-73a7-4938-9916-8fc7a4c77b76")
 	)
 	(wire
 		(pts
@@ -8612,7 +8612,7 @@
 		)
 		(uuid "c7bcc3d7-357c-4cab-8a5c-aaabb4b9b5e3")
 	)
-	(label "HV"
+	(label "High Voltage (9V)"
 		(at 144.78 41.91 180)
 		(effects
 			(font
