@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ON_OFF_Switch-altium-import")(type "KiCad")(uri "${KIPRJMOD}/ON_OFF_Switch-altium-import.kicad_sym")(options "")(descr ""))
+)
