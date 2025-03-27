@@ -9155,7 +9155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 140.97 213.36 0)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 125.73 158.75 0)
 			(effects
 				(font
@@ -12120,7 +12120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 200.66 157.48 0)
 			(effects
 				(font
@@ -12148,7 +12148,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf57")
 		)
 		(instances
 			(project ""
@@ -12964,7 +12964,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 212.09 90.17 0)
 			(effects
 				(font
@@ -12992,7 +12992,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf58")
 		)
 		(instances
 			(project ""
@@ -13221,7 +13221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 242.57 205.74 0)
 			(effects
 				(font
@@ -13249,7 +13249,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf59")
 		)
 		(instances
 			(project ""
@@ -13431,7 +13431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 200.66 167.64 0)
 			(effects
 				(font
@@ -13459,7 +13459,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5a")
 		)
 		(instances
 			(project ""
@@ -13787,7 +13787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 243.84 232.41 0)
 			(effects
 				(font
@@ -13815,7 +13815,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5b")
 		)
 		(instances
 			(project ""
@@ -15009,7 +15009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 125.73 166.37 0)
 			(effects
 				(font
@@ -15037,7 +15037,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5c")
 		)
 		(instances
 			(project ""
@@ -15155,7 +15155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 233.68 205.74 0)
 			(effects
 				(font
@@ -15183,7 +15183,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5d")
 		)
 		(instances
 			(project ""
@@ -16160,7 +16160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -16188,7 +16188,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5e")
 		)
 		(instances
 			(project ""
@@ -16358,7 +16358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 140.97 228.6 0)
 			(effects
 				(font
@@ -16386,7 +16386,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "714b5d96-9ead-427a-a40e-660275fedf56")
+			(uuid "714b5d96-9ead-427a-a40e-660275fedf5f")
 		)
 		(instances
 			(project ""
