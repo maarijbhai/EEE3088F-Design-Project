@@ -7262,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 110.49) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a827b2de-fcfb-4475-a15a-6bd5af2efe46")
+	)
+	(wire
+		(pts
 			(xy 99.06 148.59) (xy 99.06 156.21)
 		)
 		(stroke
@@ -8140,6 +8150,16 @@
 		)
 		(uuid "4e761a8f-7205-4af0-9047-4cfa2f8b35cb")
 	)
+	(label "switch"
+		(at 162.56 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54454afe-3e09-40bb-98c8-0129bf3add86")
+	)
 	(label "MOTOR2_CTRL2"
 		(at 351.79 35.56 180)
 		(effects
@@ -8310,16 +8330,6 @@
 		)
 		(uuid "92131dda-4317-4f64-8db6-4c70c0d178e1")
 	)
-	(label "3V7 in"
-		(at 196.85 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "994242a1-1f68-436b-8f39-95fd2f5de066")
-	)
 	(label "MOTOR3_B_OUT"
 		(at 248.92 167.64 0)
 		(effects
@@ -8329,6 +8339,16 @@
 			(justify left bottom)
 		)
 		(uuid "9aecee36-fef9-42b4-a80d-3ed10527c02e")
+	)
+	(label "switch"
+		(at 196.85 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c6fa4f0-6411-4435-8cd2-7e0aad64a867")
 	)
 	(label "MOTOR4_CTRL2"
 		(at 218.44 172.72 180)
@@ -8460,7 +8480,7 @@
 		)
 		(uuid "cf2ee6c7-7383-4eac-8e25-deb28fc75850")
 	)
-	(label "Vout"
+	(label "switch"
 		(at 222.25 200.66 0)
 		(effects
 			(font
@@ -8490,17 +8510,7 @@
 		)
 		(uuid "d183480d-0cd5-4193-8a03-133cf62ced5c")
 	)
-	(label "3V7 in"
-		(at 162.56 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da7f1312-a8de-4152-9074-934c284a4a63")
-	)
-	(label "VBAT"
+	(label "Battery"
 		(at 116.84 40.64 0)
 		(effects
 			(font
@@ -8629,6 +8639,16 @@
 			(justify right bottom)
 		)
 		(uuid "f99e8d28-5ef9-4999-95d6-49551ce15aec")
+	)
+	(label "switch"
+		(at 213.36 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fec44dcd-065e-4b95-a64a-3d96a8361310")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -11262,73 +11282,6 @@
 			(project "Main"
 				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V8")
-		(at 213.36 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50370f04-ff36-45fe-9923-e6dd6a70a813")
-		(property "Reference" "#PWR043"
-			(at 217.17 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V7"
-			(at 209.55 232.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 213.36 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1cc4361-6a1f-497a-8378-180dbbfdc986")
-		)
-		(instances
-			(project "Main"
-				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
