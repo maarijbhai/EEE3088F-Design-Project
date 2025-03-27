@@ -8119,16 +8119,6 @@
 		)
 		(uuid "2c3a5282-a18a-4bbe-a1cb-ddba8aaed8f8")
 	)
-	(label "3V3 Out"
-		(at 166.37 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c7a9bbc-8da0-4fe7-8305-0af5a781d5ad")
-	)
 	(label "USART2_TX"
 		(at 351.79 43.18 180)
 		(effects
@@ -8188,6 +8178,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a2564a0-0343-4ed5-8f3f-3fff69f64dae")
+	)
+	(label "Battery"
+		(at 139.7 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a83317f-94fe-4925-8705-9f94b6873b4e")
 	)
 	(label "High Voltage (9V)"
 		(at 190.5 41.91 180)
@@ -8299,6 +8299,16 @@
 		)
 		(uuid "70c32a3a-5650-4aa7-b45a-6997378fd7b1")
 	)
+	(label "Battery"
+		(at 214.63 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71a7bc8d-7485-4a6d-90e5-e57b7fd499e2")
+	)
 	(label "Motor2_B_OUT"
 		(at 364.49 30.48 0)
 		(effects
@@ -8328,16 +8338,6 @@
 			(justify right bottom)
 		)
 		(uuid "74ff9087-4fae-4a7e-b3b0-8407bf57f2bd")
-	)
-	(label "3V3 Out"
-		(at 241.3 137.16 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "777b7ebb-8e3b-43fb-bf23-3d214583a022")
 	)
 	(label "I2C1_SDA"
 		(at 364.49 50.8 0)
@@ -8469,6 +8469,16 @@
 		)
 		(uuid "abebf20c-8a33-4809-b80d-85197771f4db")
 	)
+	(label "Battery"
+		(at 241.3 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf9c8a6-bec3-4846-b007-6d8966ef1fd8")
+	)
 	(label "3V3 Out"
 		(at 351.79 50.8 180)
 		(effects
@@ -8478,6 +8488,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae47ec78-44d4-4477-8ceb-19e1c51d4ea1")
+	)
+	(label "Battery"
+		(at 166.37 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0070eb5-bd56-4c6c-853f-51b41e9f477c")
 	)
 	(label "MOTOR1_CTRL1"
 		(at 351.79 63.5 180)
@@ -8508,16 +8528,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc62783a-ed0e-45a2-9f31-1ca3c7318fb4")
-	)
-	(label "3V3 Out"
-		(at 139.7 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c360f2a0-409b-4885-8867-6c917e1b7441")
 	)
 	(label "High Voltage (9V)"
 		(at 144.78 41.91 180)
@@ -8658,16 +8668,6 @@
 			(justify left bottom)
 		)
 		(uuid "efb5ef12-4eb0-4de1-b620-48309eb796af")
-	)
-	(label "3V3 Out"
-		(at 214.63 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "efed9ffd-fac2-4b6b-90bf-5d40f6db570a")
 	)
 	(label "5V Out"
 		(at 43.18 123.19 180)
