@@ -2288,7 +2288,7 @@
 	)
 	(text "5V output"
 		(exclude_from_sim no)
-		(at 68.58 12.7 0)
+		(at 68.58 13.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)

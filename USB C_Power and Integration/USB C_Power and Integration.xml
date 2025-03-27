@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\maari\OneDrive - University of Cape Town\Year 3\EEE3088F\GIT\EEE3088F-Design-Project\USB C_Power and Integration\USB C_Power and Integration.kicad_sch</source>
+    <date>2025-03-26T11:24:22+0200</date>
+    <tool>Eeschema 9.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB C_Power and Integration.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C1848</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1848"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8af4e09-1c78-4583-bca6-edf5f8b03c74</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213325555400704</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C23733</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213325555400704</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C23733"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22646132-51e7-4d69-aab7-9f759c661a6f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Field5"/>
+        <field name="Field6"/>
+        <field name="LCSC">C1848</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Field5" value=""/>
+      <property name="Field6" value=""/>
+      <property name="LCSC" value="C1848"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6aafcc8f-55e1-40b0-88b6-b58ad687ef54</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213325555400704</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C23733</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213325555400704</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C23733"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52f7e727-bd01-4337-9983-0d455ad88e62</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TYPE-C 6P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893482534100992</datasheet>
+      <fields>
+        <field name="LCSC">C668623</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893482534100992</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TYPE-C 6P(073)" part="TYPE-C_6P" description=""/>
+      <property name="LCSC" value="C668623"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="TYPE-C 6P"/>
+      <property name="ki_fp_filters" value="CONN_TYPE-C-6P_SHN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5292fd5-8b88-439a-84b9-229fc07c3ccb</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>S9013 J3(RANGE:200-350)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="SYMBOL">S9013 J3</field>
+        <field name="DEVICE">S9013 J3(RANGE:200-350)</field>
+        <field name="LCSC PART NAME">NPN 电流:500mA 耐压:25V H档(200-350)</field>
+        <field name="SUPPLIER PART">C6749</field>
+        <field name="MANUFACTURER">CJ(江苏长电/长晶)</field>
+        <field name="MANUFACTURER PART">S9013 J3(RANGE:200-350)</field>
+        <field name="SUPPLIER FOOTPRINT">SOT-23</field>
+        <field name="JLCPCB PART CLASS">Basic Part</field>
+        <field name="DATASHEET">https://atta.szlcsc.com/upload/public/pdf/source/20140809/1457707213610.pdf</field>
+        <field name="SUPPLIER">LCSC</field>
+        <field name="ADD INTO BOM">yes</field>
+        <field name="CONVERT TO PCB">yes</field>
+        <field name="TRANSISTOR TYPE"/>
+        <field name="COLLECTOR CURRENT (IC)"/>
+        <field name="COLLECTOR-EMITTER BREAKDOWN VOLTAGE (VCEO)"/>
+        <field name="POWER DISSIPATION (PD)"/>
+        <field name="DC CURRENT GAIN (HFE@IC,VCE)">120@50mA,1V</field>
+        <field name="TRANSITION FREQUENCY (FT)">150MHz</field>
+        <field name="COLLECTOR CUT-OFF CURRENT (ICBO)">100nA</field>
+        <field name="COLLECTOR-EMITTER SATURATION VOLTAGE (VCE(SAT)@IC,IB)">600mV@500mA,50mA</field>
+        <field name="OPERATING TEMPERATURE">-55℃~+150℃</field>
+        <field name="JCLC">C6749</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23_Handsoldering</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S9013 J31_S9013 J3-altium-import" part="root_0_S9013 J3(RANGE{colon}200-350)_" description=""/>
+      <property name="SYMBOL" value="S9013 J3"/>
+      <property name="DEVICE" value="S9013 J3(RANGE:200-350)"/>
+      <property name="LCSC PART NAME" value="NPN 电流:500mA 耐压:25V H档(200-350)"/>
+      <property name="SUPPLIER PART" value="C6749"/>
+      <property name="MANUFACTURER" value="CJ(江苏长电/长晶)"/>
+      <property name="MANUFACTURER PART" value="S9013 J3(RANGE:200-350)"/>
+      <property name="SUPPLIER FOOTPRINT" value="SOT-23"/>
+      <property name="JLCPCB PART CLASS" value="Basic Part"/>
+      <property name="DATASHEET" value="https://atta.szlcsc.com/upload/public/pdf/source/20140809/1457707213610.pdf"/>
+      <property name="SUPPLIER" value="LCSC"/>
+      <property name="ADD INTO BOM" value="yes"/>
+      <property name="CONVERT TO PCB" value="yes"/>
+      <property name="TRANSISTOR TYPE" value=""/>
+      <property name="COLLECTOR CURRENT (IC)" value=""/>
+      <property name="COLLECTOR-EMITTER BREAKDOWN VOLTAGE (VCEO)" value=""/>
+      <property name="POWER DISSIPATION (PD)" value=""/>
+      <property name="DC CURRENT GAIN (HFE@IC,VCE)" value="120@50mA,1V"/>
+      <property name="TRANSITION FREQUENCY (FT)" value="150MHz"/>
+      <property name="COLLECTOR CUT-OFF CURRENT (ICBO)" value="100nA"/>
+      <property name="COLLECTOR-EMITTER SATURATION VOLTAGE (VCE(SAT)@IC,IB)" value="600mV@500mA,50mA"/>
+      <property name="OPERATING TEMPERATURE" value="-55℃~+150℃"/>
+      <property name="JCLC" value="C6749"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_fp_filters" value="*SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14be87d-ff83-4e0a-8e91-5284c4f73270</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>75k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706316903792640</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C23242</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706316903792640</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C23242"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ebfd3a4-1aaa-46a2-9b5a-e8a2f33cdb59</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C25867</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C25867"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fa342ae-7b49-4983-a26d-c8350664440b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C25867</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C25867"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>673116e2-226c-49e0-8b29-140038c44c9c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707948863373312</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C4109</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707948863373312</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C4109"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f281fe79-7788-4bac-b752-1ba28170c529</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4k3</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706248557744128</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C25899</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706248557744128</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C25899"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a513fa15-38ea-4e66-bef9-3351165bb2bc</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C25879</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f6e894-4fc1-4611-987b-5c96a5d530fb</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706485296709632</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C17471</field>
+        <field name="Footprint">Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706485296709632</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17471"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de3d1ce7-8085-40cd-8b5e-05dca883336e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705859536048128</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="JCSC">C11702</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705859536048128</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="JCSC" value="C11702"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dfb8b1c-0c6b-4c86-ab67-f5dff4e8ae5d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706144165986304</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0405f38b-9e73-4d9d-899c-f9ed7f8d9782</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24074RGT</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24074.pdf</datasheet>
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <fields>
+        <field name="LCSC">C54313</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24074.pdf</field>
+        <field name="Description">USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</field>
+      </fields>
+      <libsource lib="Battery_Management" part="BQ24074RGT" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="LCSC" value="C54313"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_keywords" value="USB Charger"/>
+      <property name="ki_fp_filters" value="VQFN*1EP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dcad004-c8bb-4aee-b2c0-a24984bbde28</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>HUSB237-AA001-DN06R</value>
+      <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1.01x1.7mm</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908931298979840</datasheet>
+      <fields>
+        <field name="SYMBOL">HUSB237-AA001-DN06R</field>
+        <field name="DEVICE">HUSB237-AA001-DN06R</field>
+        <field name="LCSC PART NAME">HUSB237-AA001-DN06R</field>
+        <field name="SUPPLIER PART">C22373734</field>
+        <field name="MANUFACTURER">Hynetek(慧能泰)</field>
+        <field name="MANUFACTURER PART">HUSB237-AA001-DN06R</field>
+        <field name="SUPPLIER FOOTPRINT">DFN-6L-EP(2x2)</field>
+        <field name="JLCPCB PART CLASS">Extended Part</field>
+        <field name="DATASHEET">https://atta.szlcsc.com/upload/public/pdf/source/20240703/2FA95B5910131204ADEAE742C0EE084D.pdf</field>
+        <field name="SUPPLIER">LCSC</field>
+        <field name="ADD INTO BOM">yes</field>
+        <field name="CONVERT TO PCB">yes</field>
+        <field name="LCSC">C22373734</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1.01x1.7mm</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908931298979840</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="USB C_Power and Integration-altium-import" part="root_0_HUSB237-AA001-DN06R_" description=""/>
+      <property name="SYMBOL" value="HUSB237-AA001-DN06R"/>
+      <property name="DEVICE" value="HUSB237-AA001-DN06R"/>
+      <property name="LCSC PART NAME" value="HUSB237-AA001-DN06R"/>
+      <property name="SUPPLIER PART" value="C22373734"/>
+      <property name="MANUFACTURER" value="Hynetek(慧能泰)"/>
+      <property name="MANUFACTURER PART" value="HUSB237-AA001-DN06R"/>
+      <property name="SUPPLIER FOOTPRINT" value="DFN-6L-EP(2x2)"/>
+      <property name="JLCPCB PART CLASS" value="Extended Part"/>
+      <property name="DATASHEET" value="https://atta.szlcsc.com/upload/public/pdf/source/20240703/2FA95B5910131204ADEAE742C0EE084D.pdf"/>
+      <property name="SUPPLIER" value="LCSC"/>
+      <property name="ADD INTO BOM" value="yes"/>
+      <property name="CONVERT TO PCB" value="yes"/>
+      <property name="LCSC" value="C22373734"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_fp_filters" value="*TDFN-6_L2.0-W2.0-P0.65-TL-EP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99c03efb-1c6b-4e7b-9e4f-e03c88c73000</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RT9742GGJ5</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588885201744879616</datasheet>
+      <fields>
+        <field name="SYMBOL">RT9742GGJ5</field>
+        <field name="DEVICE">RT9742GGJ5</field>
+        <field name="LCSC PART NAME">RT9742GGJ5</field>
+        <field name="SUPPLIER PART">C250547</field>
+        <field name="MANUFACTURER">RICHTEK(立锜)</field>
+        <field name="MANUFACTURER PART">RT9742GGJ5</field>
+        <field name="SUPPLIER FOOTPRINT">TSOT-23-5</field>
+        <field name="JLCPCB PART CLASS">Extended Part</field>
+        <field name="DATASHEET">https://atta.szlcsc.com/upload/public/pdf/source/20180814/C250547_E58B04562B5F7112C93017421383FC36.pdf</field>
+        <field name="SUPPLIER">LCSC</field>
+        <field name="ADD INTO BOM">yes</field>
+        <field name="CONVERT TO PCB">yes</field>
+        <field name="NUMBER OF OUTPUTS">1</field>
+        <field name="OUTPUT CURRENT">1A</field>
+        <field name="INPUT VOLTAGE">2.7V~6V</field>
+        <field name="RESISTOR ON-STATE">70mΩ</field>
+        <field name="OPERATING TEMPERATURE&#x9;-">-40℃~+85℃</field>
+        <field name="LCSC">C250547</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588885201744879616</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT9742GGJ51_RT9742GGJ5-altium-import" part="root_0_RT9742GGJ5_" description=""/>
+      <property name="SYMBOL" value="RT9742GGJ5"/>
+      <property name="DEVICE" value="RT9742GGJ5"/>
+      <property name="LCSC PART NAME" value="RT9742GGJ5"/>
+      <property name="SUPPLIER PART" value="C250547"/>
+      <property name="MANUFACTURER" value="RICHTEK(立锜)"/>
+      <property name="MANUFACTURER PART" value="RT9742GGJ5"/>
+      <property name="SUPPLIER FOOTPRINT" value="TSOT-23-5"/>
+      <property name="JLCPCB PART CLASS" value="Extended Part"/>
+      <property name="DATASHEET" value="https://atta.szlcsc.com/upload/public/pdf/source/20180814/C250547_E58B04562B5F7112C93017421383FC36.pdf"/>
+      <property name="SUPPLIER" value="LCSC"/>
+      <property name="ADD INTO BOM" value="yes"/>
+      <property name="CONVERT TO PCB" value="yes"/>
+      <property name="NUMBER OF OUTPUTS" value="1"/>
+      <property name="OUTPUT CURRENT" value="1A"/>
+      <property name="INPUT VOLTAGE" value="2.7V~6V"/>
+      <property name="RESISTOR ON-STATE" value="70mΩ"/>
+      <property name="OPERATING TEMPERATURE&#x9;-" value="-40℃~+85℃"/>
+      <property name="LCSC" value="C250547"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_fp_filters" value="*TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>051563b2-6c61-4a09-bb5b-f9fd1954250c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>RT9742GGJ5</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588885201744879616</datasheet>
+      <fields>
+        <field name="SYMBOL">RT9742GGJ5</field>
+        <field name="DEVICE">RT9742GGJ5</field>
+        <field name="LCSC PART NAME">RT9742GGJ5</field>
+        <field name="SUPPLIER PART">C250547</field>
+        <field name="MANUFACTURER">RICHTEK(立锜)</field>
+        <field name="MANUFACTURER PART">RT9742GGJ5</field>
+        <field name="SUPPLIER FOOTPRINT">TSOT-23-5</field>
+        <field name="JLCPCB PART CLASS">Extended Part</field>
+        <field name="DATASHEET">https://atta.szlcsc.com/upload/public/pdf/source/20180814/C250547_E58B04562B5F7112C93017421383FC36.pdf</field>
+        <field name="SUPPLIER">LCSC</field>
+        <field name="ADD INTO BOM">yes</field>
+        <field name="CONVERT TO PCB">yes</field>
+        <field name="NUMBER OF OUTPUTS">1</field>
+        <field name="OUTPUT CURRENT">1A</field>
+        <field name="INPUT VOLTAGE">2.7V~6V</field>
+        <field name="RESISTOR ON-STATE">70mΩ</field>
+        <field name="OPERATING TEMPERATURE&#x9;-">-40℃~+85℃</field>
+        <field name="LCSC">C250547</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588885201744879616</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT9742GGJ51_RT9742GGJ5-altium-import" part="root_0_RT9742GGJ5_" description=""/>
+      <property name="SYMBOL" value="RT9742GGJ5"/>
+      <property name="DEVICE" value="RT9742GGJ5"/>
+      <property name="LCSC PART NAME" value="RT9742GGJ5"/>
+      <property name="SUPPLIER PART" value="C250547"/>
+      <property name="MANUFACTURER" value="RICHTEK(立锜)"/>
+      <property name="MANUFACTURER PART" value="RT9742GGJ5"/>
+      <property name="SUPPLIER FOOTPRINT" value="TSOT-23-5"/>
+      <property name="JLCPCB PART CLASS" value="Extended Part"/>
+      <property name="DATASHEET" value="https://atta.szlcsc.com/upload/public/pdf/source/20180814/C250547_E58B04562B5F7112C93017421383FC36.pdf"/>
+      <property name="SUPPLIER" value="LCSC"/>
+      <property name="ADD INTO BOM" value="yes"/>
+      <property name="CONVERT TO PCB" value="yes"/>
+      <property name="NUMBER OF OUTPUTS" value="1"/>
+      <property name="OUTPUT CURRENT" value="1A"/>
+      <property name="INPUT VOLTAGE" value="2.7V~6V"/>
+      <property name="RESISTOR ON-STATE" value="70mΩ"/>
+      <property name="OPERATING TEMPERATURE&#x9;-" value="-40℃~+85℃"/>
+      <property name="LCSC" value="C250547"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="USB C_Power and Integration.kicad_sch"/>
+      <property name="ki_fp_filters" value="*TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed141738-0385-4e83-907f-8b4d1a949154</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="BQ24074RGT">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24074.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24074RGT</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24074.pdf</field>
+        <field name="Description">USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT9742GGJ51_RT9742GGJ5-altium-import" part="root_0_RT9742GGJ5_">
+      <footprints>
+        <fp>*TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FLG#" type="passive"/>
+        <pin num="4" name="EN/EN#" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S9013 J31_S9013 J3-altium-import" part="root_0_S9013 J3(RANGE{colon}200-350)_">
+      <footprints>
+        <fp>*SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TYPE-C 6P(073)" part="TYPE-C_6P">
+      <docs>TYPE-C 6P</docs>
+      <footprints>
+        <fp>CONN_TYPE-C-6P_SHN</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C 6P</field>
+        <field name="Footprint">CONN_TYPE-C-6P_SHN</field>
+        <field name="Datasheet">TYPE-C 6P</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A12" name="GND" type="power_out"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B12" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB C_Power and Integration-altium-import" part="root_0_HUSB237-AA001-DN06R_">
+      <footprints>
+        <fp>*TDFN-6_L2.0-W2.0-P0.65-TL-EP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CC1" type="passive"/>
+        <pin num="2" name="VUSB" type="passive"/>
+        <pin num="3" name="VSET" type="passive"/>
+        <pin num="4" name="D+" type="passive"/>
+        <pin num="5" name="D-" type="passive"/>
+        <pin num="6" name="CC2" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="TYPE-C 6P(073)">
+      <uri>C:\Users\maari\OneDrive - University of Cape Town\Year 3\EEE3088F\Datasheets\USB C\USB Connector\ul_TYPE-C-6P\KiCADv6\2025-03-26_07-02-23.kicad_sym</uri>
+    </library>
+    <library logical="USB C_Power and Integration-altium-import">
+      <uri>C:\Users\maari\OneDrive - University of Cape Town\Year 3\EEE3088F\GIT\EEE3088F-Design-Project\USB C_Power and Integration/USB C_Power and Integration-altium-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="U4" pin="5" pinfunction="VIN" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="2" name="/CTRL_EXT_LOAD1" class="Default">
+      <node ref="U5" pin="4" pinfunction="EN/EN#" pintype="passive"/>
+    </net>
+    <net code="3" name="/CTRL_EXT_LOAD2" class="Default">
+      <node ref="U4" pin="4" pinfunction="EN/EN#" pintype="passive"/>
+    </net>
+    <net code="4" name="/EXT_LOAD1_OUT" class="Default">
+      <node ref="U5" pin="1" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="5" name="/EXT_LOAD2_OUT" class="Default">
+      <node ref="U4" pin="1" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="6" name="/FAST_CHARGE_CTRL" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/HV" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VUSB" pintype="passive"/>
+    </net>
+    <net code="8" name="/VBAT" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="9" name="/VOUT" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U1" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="10" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="power_out"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="TMR" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="EN1" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J2-CC1)" class="Default">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="CC1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-CC2)" class="Default">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="CC2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q3-B)" class="Default">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q3-C)" class="Default">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R10-Pad2)" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-ILIM)" class="Default">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-ISET)" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-TS)" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U1-~{CHG})" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{CHG}" pintype="open_collector"/>
+    </net>
+    <net code="20" name="Net-(U1-~{PGOOD})" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="~{PGOOD}" pintype="open_collector"/>
+    </net>
+    <net code="21" name="Net-(U3-VSET)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VSET" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(U1-ITERM-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="ITERM" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U3-D+-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="D+" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U3-D--Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="D-" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U4-FLG#-Pad3)" class="Default">
+      <node ref="U4" pin="3" pinfunction="FLG#" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U5-FLG#-Pad3)" class="Default">
+      <node ref="U5" pin="3" pinfunction="FLG#" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
