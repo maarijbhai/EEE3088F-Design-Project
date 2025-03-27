@@ -1,4 +1,4 @@
-24744320463624266
+24746063550557095
 6P USB-C
 CONN_TYPE-C-6P_SHN
 
@@ -92903,6 +92903,13 @@ Logo WEEE
 0
 0
 0
+TPS63802DLAR
+VREG_TPS63802DLAR
+
+
+0
+10
+10
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
