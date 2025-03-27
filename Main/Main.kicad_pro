@@ -573,12 +573,366 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ACTUATOR STYLE",
+          "name": "ACTUATOR STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADD INTO BOM",
+          "name": "ADD INTO BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CIRCUIT",
+          "name": "CIRCUIT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLLECTOR CURRENT (IC)",
+          "name": "COLLECTOR CURRENT (IC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLLECTOR CUT-OFF CURRENT (ICBO)",
+          "name": "COLLECTOR CUT-OFF CURRENT (ICBO)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLLECTOR-EMITTER BREAKDOWN VOLTAGE (VCEO)",
+          "name": "COLLECTOR-EMITTER BREAKDOWN VOLTAGE (VCEO)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLLECTOR-EMITTER SATURATION VOLTAGE (VCE(SAT)@IC,IB)",
+          "name": "COLLECTOR-EMITTER SATURATION VOLTAGE (VCE(SAT)@IC,IB)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT RATING (AC)",
+          "name": "CURRENT RATING (AC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT RATING (DC)",
+          "name": "CURRENT RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET",
+          "name": "DATASHEET",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC CURRENT GAIN (HFE@IC,VCE)",
+          "name": "DC CURRENT GAIN (HFE@IC,VCE)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT VOLTAGE",
+          "name": "INPUT VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JCLC",
+          "name": "JCLC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JCSC",
+          "name": "JCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PART CLASS",
+          "name": "JLCPCB PART CLASS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PART NAME",
+          "name": "LCSC PART NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS",
+          "name": "LSCS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART",
+          "name": "MANUFACTURER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MECHANICAL LIFE",
+          "name": "MECHANICAL LIFE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTING STYLE",
+          "name": "MOUNTING STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF OUTPUTS",
+          "name": "NUMBER OF OUTPUTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE\t-",
+          "name": "OPERATING TEMPERATURE\t-",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT CURRENT",
+          "name": "OUTPUT CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN STYLE",
+          "name": "PIN STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER DISSIPATION (PD)",
+          "name": "POWER DISSIPATION (PD)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RESISTOR ON-STATE",
+          "name": "RESISTOR ON-STATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT",
+          "name": "SUPPLIER FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART",
+          "name": "SUPPLIER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCH HEIGHT",
+          "name": "SWITCH HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCH LENGTH",
+          "name": "SWITCH LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCH WIDTH",
+          "name": "SWITCH WIDTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TRANSISTOR TYPE",
+          "name": "TRANSISTOR TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TRANSITION FREQUENCY (FT)",
+          "name": "TRANSITION FREQUENCY (FT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (AC)",
+          "name": "VOLTAGE RATING (AC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (DC)",
+          "name": "VOLTAGE RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ACTUATOR COLOR",
+          "name": "ACTUATOR COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
