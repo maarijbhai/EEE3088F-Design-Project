@@ -5828,6 +5828,12 @@
 		(uuid "d5956d17-2f51-4a06-a40f-445489d10048")
 	)
 	(junction
+		(at 207.01 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d60bc480-23bb-4e81-a0b5-cd58fc38794c")
+	)
+	(junction
 		(at 217.17 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6155,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 106.68) (xy 207.01 110.49)
+			(xy 207.01 106.68) (xy 207.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6842,6 +6848,16 @@
 			(type default)
 		)
 		(uuid "767fa358-1570-4aa1-9f4d-7b64efb40deb")
+	)
+	(wire
+		(pts
+			(xy 207.01 109.22) (xy 207.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a8280d-84a6-4b05-aef0-1166df77256b")
 	)
 	(wire
 		(pts
@@ -9736,7 +9752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C247521"
+		(property "LCSC" "C247521"
 			(at 144.78 226.06 90)
 			(effects
 				(font
@@ -9815,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C96123"
+		(property "LCSC" "C96123"
 			(at 203.2 82.55 0)
 			(effects
 				(font
@@ -9991,7 +10007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C25741"
+		(property "LCSC" "C25741"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -10345,7 +10361,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C12530"
+		(property "LCSC" "C12530"
 			(at 233.68 142.24 90)
 			(effects
 				(font
@@ -11164,7 +11180,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C45783"
+		(property "LCSC" "C45783"
 			(at 151.13 91.44 90)
 			(effects
 				(font
@@ -11373,7 +11389,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C19702"
+		(property "LCSC" "C19702"
 			(at 238.76 237.49 0)
 			(effects
 				(font
@@ -12087,7 +12103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C17414"
+		(property "LCSC" "C17414"
 			(at 217.17 147.32 0)
 			(effects
 				(font
@@ -12740,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" " C50506"
+		(property "LCSC" " C50506"
 			(at 233.68 162.56 0)
 			(effects
 				(font
@@ -12926,7 +12942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C15525"
+		(property "LCSC" "C15525"
 			(at 171.45 140.97 90)
 			(effects
 				(font
@@ -13073,7 +13089,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" " C50506"
+		(property "LCSC" " C50506"
 			(at 158.75 162.56 0)
 			(effects
 				(font
@@ -13194,7 +13210,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C23178"
+		(property "LCSC" "C23178"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -13868,7 +13884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C12530"
+		(property "LCSC" "C12530"
 			(at 158.75 142.24 90)
 			(effects
 				(font
@@ -14077,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C1710"
+		(property "LCSC" "C1710"
 			(at 213.36 152.4 0)
 			(effects
 				(font
@@ -14416,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C45783"
+		(property "LCSC" "C45783"
 			(at 151.13 96.52 90)
 			(effects
 				(font
@@ -15140,7 +15156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C17928"
+		(property "LCSC" "C17928"
 			(at 125.73 167.64 90)
 			(effects
 				(font
@@ -15284,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C19702"
+		(property "LCSC" "C19702"
 			(at 217.17 237.49 0)
 			(effects
 				(font
@@ -15428,7 +15444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C247521"
+		(property "LCSC" "C247521"
 			(at 137.16 226.06 90)
 			(effects
 				(font
@@ -15981,7 +15997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C17414"
+		(property "LCSC" "C17414"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -16267,7 +16283,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C96123"
+		(property "LCSC" "C96123"
 			(at 194.31 82.55 0)
 			(effects
 				(font
@@ -16343,7 +16359,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C25744"
+		(property "LCSC" "C25744"
 			(at 232.41 205.74 90)
 			(effects
 				(font
@@ -16421,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C1710"
+		(property "LCSC" "C1710"
 			(at 138.43 152.4 0)
 			(effects
 				(font
@@ -16498,7 +16514,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C15525"
+		(property "LCSC" "C15525"
 			(at 246.38 140.97 90)
 			(effects
 				(font
@@ -16576,7 +16592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C25741"
+		(property "LCSC" "C25741"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -16795,6 +16811,73 @@
 			(project "Main"
 				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65d3d74-76e6-4a2d-81cd-43918fb57e63")
+		(property "Reference" "TP20"
+			(at 212.09 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.09 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 207.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d47d2225-5b90-4886-9b21-815023014196")
+		)
+		(instances
+			(project "Main"
+				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -17226,7 +17309,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C247521"
+		(property "LCSC" "C247521"
 			(at 200.66 167.64 90)
 			(effects
 				(font
@@ -18551,7 +18634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C23137"
+		(property "LCSC" "C23137"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -18628,7 +18711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C6186"
+		(property "LCSC" "C6186"
 			(at 228.6 232.41 0)
 			(effects
 				(font
