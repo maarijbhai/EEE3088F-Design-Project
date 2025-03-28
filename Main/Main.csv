@@ -30,7 +30,7 @@
 "R20","1","330k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706220296658944"
 "R22","1","470k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706262591750144"
 "SW2","1","SS-12D11G3R","","","","SS-12D11G3R:SW-TH_SS-12D11L3",""
-"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18,TP19","19","TestPoint","","","","TestPoint:TestPoint_Pad_D3.0mm","~"
+"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18,TP19,TP20","20","TestPoint","","","","TestPoint:TestPoint_Pad_D3.0mm","~"
 "U1","1","BQ24074RGT","","","","Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm","http://www.ti.com/lit/ds/symlink/bq24074.pdf"
 "U2,U8","2","DRV8833PW","","","","Package_SO:TSSOP-16_4.4x5mm_P0.65mm","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881461298802689"
 "U3","1","HUSB237-AA001-DN06R","","","","Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1.01x1.7mm","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908931298979840"

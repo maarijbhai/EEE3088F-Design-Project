@@ -13377,7 +13377,7 @@
 		(dnp no)
 		(uuid "7d7adf63-2c6e-4b88-ad7a-36bfaeab71a1")
 		(property "Reference" "TP19"
-			(at 57.404 59.436 90)
+			(at 57.404 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14202,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 67.818 55.626 90)
+			(at 67.564 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +14998,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCLC" "C6749"
+		(property "LCSC" "C6749"
 			(at 73.66 82.55 0)
 			(effects
 				(font
