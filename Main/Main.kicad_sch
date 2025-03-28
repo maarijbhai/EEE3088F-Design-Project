@@ -2414,7 +2414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_Motor:DRV8833PW"
+		(symbol "Driver_Motor:DRV8833PWP"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2429,7 +2429,7 @@
 					)
 				)
 			)
-			(property "Value" "DRV8833PW"
+			(property "Value" "DRV8833PWP"
 				(at -3.81 13.97 0)
 				(effects
 					(font
@@ -2437,8 +2437,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-				(at 5.08 -17.78 0)
+			(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
+				(at 5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
-				(at 5.08 -20.32 0)
+				(at 5.08 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
+			(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2475,7 +2475,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP-16*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "HTSSOP-16-1EP*4.4x5mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2484,7 +2484,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8833PW_0_1"
+			(symbol "DRV8833PWP_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -2497,7 +2497,7 @@
 					)
 				)
 			)
-			(symbol "DRV8833PW_1_1"
+			(symbol "DRV8833PWP_1_1"
 				(pin input line
 					(at -15.24 10.16 0)
 					(length 5.08)
@@ -2653,6 +2653,25 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13101,129 +13120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8833PW")
-		(at 233.68 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f9a3e84-f082-49b6-b7b9-afb4856fed4b")
-		(property "Reference" "U8"
-			(at 235.8233 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8833PW"
-			(at 235.8233 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 238.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881461298802689"
-			(at 238.76 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C50506"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "48514c0a-7466-47eb-8e5a-51962a678a0d")
-		)
-		(pin "11"
-			(uuid "bd2367a6-be18-486d-8aca-a763d39f41db")
-		)
-		(pin "8"
-			(uuid "614b58d3-e822-4335-8add-2babe2999949")
-		)
-		(pin "1"
-			(uuid "1b641b49-c860-42f4-b5b5-e860873f6ca2")
-		)
-		(pin "6"
-			(uuid "2b03f1ef-bb22-4387-99db-6ba96c083e9e")
-		)
-		(pin "16"
-			(uuid "7886debc-1f76-4ff1-b797-fb95522d8aeb")
-		)
-		(pin "15"
-			(uuid "b18997d3-fc03-4912-8187-f3aa987d2779")
-		)
-		(pin "9"
-			(uuid "06c76dc7-dba7-49e0-a0e0-b28575d4ac84")
-		)
-		(pin "10"
-			(uuid "a8ff0a49-be38-4ca2-8fa3-f915fb670d01")
-		)
-		(pin "13"
-			(uuid "a8ae4b13-5ee2-4987-b9ef-1c887bf9e957")
-		)
-		(pin "14"
-			(uuid "801e6a15-333a-4931-8cf1-477b872e8cd5")
-		)
-		(pin "12"
-			(uuid "2fa3b9f1-3a4c-4bfa-804e-d477e4fbbd2e")
-		)
-		(pin "4"
-			(uuid "11451a40-bfa5-4719-9e4a-aad57078a79f")
-		)
-		(pin "7"
-			(uuid "fbde00ad-2e08-419b-a3fc-d2fc04f7051f")
-		)
-		(pin "5"
-			(uuid "14b79e90-8cc4-484a-b091-f3f0397357e5")
-		)
-		(pin "2"
-			(uuid "0ad73f35-4245-4afd-a00d-5026c4469157")
-		)
-		(instances
-			(project "Main"
-				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 104.14 270)
 		(unit 1)
@@ -13428,129 +13324,6 @@
 			(project "Main"
 				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8833PW")
-		(at 158.75 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74f899d2-011b-416f-b9ba-37a7637b7d80")
-		(property "Reference" "U2"
-			(at 160.8933 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8833PW"
-			(at 160.8933 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 163.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881461298802689"
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
-			(at 158.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C50506"
-			(at 158.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "31ba1bed-de19-416c-9040-060c53c18f24")
-		)
-		(pin "11"
-			(uuid "ef1bf1c0-a33c-42d5-9f37-44cbe54f50e4")
-		)
-		(pin "8"
-			(uuid "f9025231-066d-4ab0-a054-faa8a7ce63c1")
-		)
-		(pin "1"
-			(uuid "f51979f5-bd81-4982-aca9-3e67f6d1ea4c")
-		)
-		(pin "6"
-			(uuid "9ad0ec14-bb4f-4cb9-8ba6-3f98f0866f3c")
-		)
-		(pin "16"
-			(uuid "66458a3d-db7e-4f53-b4af-e7df059b98ff")
-		)
-		(pin "15"
-			(uuid "02f0c8bb-7936-40c9-91d8-d84e0ff28e5f")
-		)
-		(pin "9"
-			(uuid "9ccf5d9e-f4b4-47e0-b04f-74e290ce6011")
-		)
-		(pin "10"
-			(uuid "dd9dd125-9009-4200-9f68-606f91617591")
-		)
-		(pin "13"
-			(uuid "89dcc843-832a-4860-b535-cdcfb19587a1")
-		)
-		(pin "14"
-			(uuid "06221336-b807-4c13-a505-24424b68478d")
-		)
-		(pin "12"
-			(uuid "e9acb4b2-f547-4b20-a32f-79268ff029fe")
-		)
-		(pin "4"
-			(uuid "08a82c61-3da7-485e-9380-b7ca9e5d7125")
-		)
-		(pin "7"
-			(uuid "ae9c8f26-f898-4214-92ee-5288bd133a17")
-		)
-		(pin "5"
-			(uuid "cf6b714f-c1e1-4e0d-9932-d01ad1c14069")
-		)
-		(pin "2"
-			(uuid "6136ea0c-494c-4266-a4b3-ef10b1f75c56")
-		)
-		(instances
-			(project "Main"
-				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16554,6 +16327,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Driver_Motor:DRV8833PWP")
+		(at 233.68 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a44ebe-ebeb-49ab-b6f2-fd7975ccb652")
+		(property "Reference" "U10"
+			(at 235.8233 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8833PWP"
+			(at 235.8233 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+			(at 238.76 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1556089"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d48e77e-b7c6-45db-a633-810dad20a3fa")
+		)
+		(pin "12"
+			(uuid "7962a18f-d8de-4e15-b2c0-05177f9f5809")
+		)
+		(pin "2"
+			(uuid "518ae05c-c4b5-4360-b04c-40fc2493bf5c")
+		)
+		(pin "15"
+			(uuid "aa7b8424-3549-4be6-a974-b5f5f1d08298")
+		)
+		(pin "4"
+			(uuid "3efe3cd3-17d1-4a6e-9130-5d64652387b3")
+		)
+		(pin "1"
+			(uuid "f9d809c3-6863-4f1a-9280-767cf860dd0c")
+		)
+		(pin "8"
+			(uuid "ebc85a07-90a7-484f-b47a-fb4a648f9683")
+		)
+		(pin "6"
+			(uuid "93680ce8-f2b2-4706-a5b5-7d6df2454441")
+		)
+		(pin "11"
+			(uuid "3adad9ad-68dc-45af-8a3b-dea6a10f120a")
+		)
+		(pin "10"
+			(uuid "787d092a-eec3-41af-90a1-1fbe1976c01a")
+		)
+		(pin "17"
+			(uuid "5db8602d-94a0-4fb1-b681-b0d4096bbdc5")
+		)
+		(pin "14"
+			(uuid "39151af9-ed86-4fc1-8e5b-9fc4a4366e2a")
+		)
+		(pin "16"
+			(uuid "9bbd6365-a75b-41c5-b30a-fd6f5f6bc5a3")
+		)
+		(pin "9"
+			(uuid "5477adb0-534c-4992-b29a-a374f1088f93")
+		)
+		(pin "13"
+			(uuid "e9b2ad51-a637-4f2c-82ed-e51cb34338ae")
+		)
+		(pin "7"
+			(uuid "eeb437e8-e533-466d-9022-014a70566d68")
+		)
+		(pin "5"
+			(uuid "b29b4a34-6ed7-4aa7-91c0-624d4094b643")
+		)
+		(instances
+			(project ""
+				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 167.64 240.03 90)
 		(unit 1)
@@ -16934,6 +16833,132 @@
 			(project "Main"
 				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8833PWP")
+		(at 158.75 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfa87ad0-ca1d-4ae4-b2a3-d81df2c79611")
+		(property "Reference" "U11"
+			(at 160.8933 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8833PWP"
+			(at 160.8933 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
+			(at 163.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+			(at 163.83 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1556089"
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a821a5fb-3d9f-46fa-8d28-8caa78d91895")
+		)
+		(pin "12"
+			(uuid "a86c8d4e-2515-494c-acc5-7928383ea7ca")
+		)
+		(pin "2"
+			(uuid "c87f7f0c-62a8-46b2-96f0-8618913a0ea6")
+		)
+		(pin "15"
+			(uuid "2053f5d4-43b7-449e-8d63-f66a66012590")
+		)
+		(pin "4"
+			(uuid "95dbb850-2cfe-4171-853c-9fd4eb4e9d35")
+		)
+		(pin "1"
+			(uuid "53c38042-5787-413c-a166-17604545c1ab")
+		)
+		(pin "8"
+			(uuid "1e00f887-0b19-4e0e-b930-0495a8639781")
+		)
+		(pin "6"
+			(uuid "d36a45e4-fcc0-4e66-9930-eb8f3b15b317")
+		)
+		(pin "11"
+			(uuid "f753c055-a628-474e-9f10-e2250e4fe5ae")
+		)
+		(pin "10"
+			(uuid "dfcdf6ec-a9ed-4303-a786-592d014a4f6c")
+		)
+		(pin "17"
+			(uuid "5433aedd-88ed-4f40-b715-2db44f0c882f")
+		)
+		(pin "14"
+			(uuid "ade6b748-9ac0-490c-96c0-a8635551e912")
+		)
+		(pin "16"
+			(uuid "28fa3b4e-9817-466f-843e-6e2c937d6325")
+		)
+		(pin "9"
+			(uuid "42fa3ae2-eb88-4b84-bf16-cb651b5dd432")
+		)
+		(pin "13"
+			(uuid "482243d9-b3e2-4fad-9e1c-b41c364fc559")
+		)
+		(pin "7"
+			(uuid "8a04bf65-fd0c-450e-99ee-27ec44934a8d")
+		)
+		(pin "5"
+			(uuid "26509559-e3fc-4d1a-8f13-70456c6e4192")
+		)
+		(instances
+			(project "Main"
+				(path "/0f55449c-8e79-4f10-a328-a1bcb934c334"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -17443,7 +17468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
 			(at 176.53 234.95 0)
 			(effects
 				(font
