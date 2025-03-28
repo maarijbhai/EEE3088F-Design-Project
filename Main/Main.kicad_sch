@@ -14186,7 +14186,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 58.42 90)
+		(at 67.31 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14194,7 +14194,7 @@
 		(dnp no)
 		(uuid "93a48319-1fb7-4ac7-8fc7-d45979635adb")
 		(property "Reference" "TP13"
-			(at 66.04 53.34 90)
+			(at 66.04 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14202,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 67.564 55.118 90)
+			(at 67.564 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14210,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 67.31 53.34 0)
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 53.34 0)
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +14228,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 58.42 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
